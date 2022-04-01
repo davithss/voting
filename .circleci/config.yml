@@ -33,4 +33,4 @@ jobs:
       - run: mix do ecto.create, ecto.migrate
       - run: mix test
       - run: mix format --check-formatted
-      - run: mix credo --strict
+      - run: mix credo
