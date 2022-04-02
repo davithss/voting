@@ -1,4 +1,7 @@
 defmodule Voting.Factory do
+  @moduledoc """
+  Creating factories
+  """
   # with Ecto
   use ExMachina.Ecto, repo: MyApp.Repo
 
