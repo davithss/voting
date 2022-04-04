@@ -47,7 +47,8 @@ defmodule Voting.MixProject do
       {:plug_cowboy, "~> 2.5"},
       {:credo, "~> 1.6", only: [:dev, :test], runtime: false},
       {:bcrypt_elixir, "~> 3.0"},
-      {:ex_machina, "~> 2.7.0", only: :test}
+      {:ex_machina, "~> 2.7.0", only: :test},
+      {:guardian, "~> 2.0"}
     ]
   end
 
